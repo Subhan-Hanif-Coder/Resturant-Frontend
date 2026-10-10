@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Foodie House Restaurant - Fresh food, great taste, and happy moments.">
+  <title>Foodie House | Restaurant</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="header">
+    <nav class="navbar container">
+
+      <a href="#home" class="logo">
+        <span class="logo-icon">🍴</span>
+        <span>
+          Foodie <span class="orange">House</span>
+          <small>Good Food · Happy Mood</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+        <a class="nav-order"
+          href="https://wa.me/923001234567"
+          target="_blank" rel="noopener noreferrer">
+          ☎ Order Now
+        </a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <p class="eyebrow">WELCOME TO</p>
+
+        <h1>
+          Foodie <span class="orange">House</span>
+        </h1>
+
+        <h3>Fresh Food <span>|</span> Great Taste <span>|</span> Always</h3>
+
+        <p class="hero-description">
+          Experience the perfect blend of taste and quality.
+          We serve delicious food made from fresh ingredients,
+          with love and passion.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="btn">
+            Explore Our Menu →
+          </a>
+
+          <a href="https://wa.me/923001234567"
+            class="btn btn-outline"
+            target="_blank" rel="noopener noreferrer">
+            Order on WhatsApp
+          </a>
+        </div>
+
+        <div class="hero-note">
+          <span>★★★★★</span>
+          <p>Delicious food, unforgettable moments!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOD MENU -->
+    <section class="menu-section section-padding" id="menu">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow orange">OUR MENU</p>
+          <h2>Delicious Food, <span>Freshly Made</span></h2>
+          <p>Choose from our wide range of mouth-watering dishes.</p>
+        </div>
+
+        <div class="menu-grid">
+
+          <!-- BURGER -->
+          <article class="food-card">
+            <img
+              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80"
+              alt="Fresh beef burger"
+              loading="lazy">
+
+            <div class="food-info">
+              <h3>Classic Burger</h3>
+              <p>Juicy, flavorful and always fresh.</p>
+
+              <div class="food-bottom">
+                <strong>Rs. 650</strong>
+
+                <a class="small-btn"
+                  href="https://wa.me/923001234567?text=I%20want%20to%20order%20Classic%20Burger"
+                  target="_blank" rel="noopener noreferrer">
+                  Order Now
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PIZZA -->
+          <article class="food-card">
+            <img
+              src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=80"
+              alt="Fresh cheese pizza"
+              loading="lazy">
+
+            <div class="food-info">
+              <h3>Special Pizza</h3>
+              <p>Cheesy pizza with fresh toppings.</p>
+
+              <div class="food-bottom">
+                <strong>Rs. 1,200</strong>
+
+                <a class="small-btn"
+                  href="https://wa.me/923001234567?text=I%20want%20to%20order%20Special%20Pizza"
+                  target="_blank" rel="noopener noreferrer">
+                  Order Now
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PASTA -->
+          <article class="food-card">
+            <img
+              src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80"
+              alt="Delicious pasta"
+              loading="lazy">
+
+            <div class="food-info">
+              <h3>Creamy Pasta</h3>
+              <p>Rich, creamy and full of flavor.</p>
+
+              <div class="food-bottom">
+                <strong>Rs. 850</strong>
+
+                <a class="small-btn"
+                  href="https://wa.me/923001234567?text=I%20want%20to%20order%20Creamy%20Pasta"
+                  target="_blank" rel="noopener noreferrer">
+                  Order Now
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- DRINKS -->
+          <article class="food-card">
+            <img
+              src="https://images.unsplash.com/photo-1513558161293-cdaf765edfd7?auto=format&fit=crop&w=700&q=80"
+              alt="Refreshing cold drinks"
+              loading="lazy">
+
+            <div class="food-info">
+              <h3>Fresh Drinks</h3>
+              <p>Cool drinks for a better mood.</p>
+
+              <div class="food-bottom">
+                <strong>Rs. 250</strong>
+
+                <a class="small-btn"
+                  href="https://wa.me/923001234567?text=I%20want%20to%20order%20Fresh%20Drinks"
+                  target="_blank" rel="noopener noreferrer">
+                  Order Now
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
+
+      <div class="about-image" role="img"
+        aria-label="Restaurant interior"></div>
+
+      <div class="about-content">
+        <p class="eyebrow orange">ABOUT US</p>
+
+        <h2>Our <span class="orange">Story</span></h2>
+
+        <p>
+          Foodie House started with a simple idea: bringing people
+          together through great food. We use fresh ingredients,
+          prepare delicious meals, and aim to make every visit special.
+        </p>
+
+        <p>
+          Whether it's a casual meal or a family dinner,
+          there's always something tasty waiting for you.
+        </p>
+
+        <div class="about-features">
+          <div><span>✿</span> Fresh Ingredients</div>
+          <div><span>♨</span> Expert Chefs</div>
+          <div><span>♡</span> Great Atmosphere</div>
+        </div>
+
+        <a href="#contact" class="btn">
+          Contact Us →
+        </a>
+      </div>
+
+    </section>
+
+    <!-- SPECIAL OFFER -->
+    <section class="offer-section">
+      <div class="container offer-content">
+
+        <div>
+          <p class="eyebrow orange">SPECIAL MOMENTS</p>
+          <h2>Good Food, Great <span class="orange">Memories!</span></h2>
+          <p>Bring your friends and enjoy your favorite meals together.</p>
+        </div>
+
+        <a href="#menu" class="btn">View Our Menu →</a>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow orange">CONTACT US</p>
+          <h2>Get In <span>Touch</span></h2>
+          <p>Have questions or want to place an order? We'd love to hear from you!</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="contact-info">
+
+            <div class="contact-item">
+              <span class="contact-icon">⌖</span>
+              <div>
+                <strong>Our Location</strong>
+                <p>123 Food Street, Lahore, Pakistan</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">☎</span>
+              <div>
+                <strong>Call Us</strong>
+                <p>+92 300 1234567</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">◷</span>
+              <div>
+                <strong>Opening Hours</strong>
+                <p>Monday – Sunday</p>
+                <p>11:00 AM – 11:00 PM</p>
+              </div>
+            </div>
+
+            <a href="https://wa.me/923001234567"
+              class="btn contact-order"
+              target="_blank" rel="noopener noreferrer">
+              Chat on WhatsApp →
+            </a>
+
+          </div>
+
+          <!-- CONTACT FORM -->
+          <form class="contact-form" id="contactForm">
+
+            <h3>Send Us a Message</h3>
+
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required>
+
+            <label for="email">Your Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required>
+
+            <label for="message">Your Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Write your message..."
+              required></textarea>
+
+            <button class="btn form-btn" type="submit">
+              Send Message →
+            </button>
+
+            <p class="form-note" id="formNote" aria-live="polite"></p>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+
+      <a href="#home" class="logo footer-logo">
+        <span class="logo-icon">🍴</span>
+        <span>
+          Foodie <span class="orange">House</span>
+          <small>Good Food · Happy Mood</small>
+        </span>
+      </a>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <a href="https://www.facebook.com/"
+          target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.instagram.com/"
+          target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      © <span id="year"></span> Foodie House. All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    // Open and close mobile menu
+    menuToggle.addEventListener("click", function () {
+      const isOpen = navLinks.classList.toggle("show");
+
+      menuToggle.classList.toggle("open", isOpen);
+      menuToggle.setAttribute("aria-expanded", isOpen);
+    });
+
+    // Close mobile menu after selecting a link
+    document.querySelectorAll("#navLinks a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        navLinks.classList.remove("show");
+        menuToggle.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    // Demo contact form
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      document.getElementById("formNote").textContent =
+        "Thank you! This demo form is not connected to an email service yet.";
+
+      this.reset();
+    });
+
+    // Automatic copyright year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
